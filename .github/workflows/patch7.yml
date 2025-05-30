@@ -1,6 +1,8 @@
 name: Patch v7
 
 on:
+  schedule:
+  - cron: '0 3 * * *'
   workflow_dispatch:
 
 permissions:
